@@ -1,5 +1,10 @@
+* {
+   font-family: 'Open Sans', sans-serif;
+}
+
+
 #background{
-	background-color: #ff4d4d;
+	background-color: #79a68f;
 }
 
 .dropbtn {
@@ -19,21 +24,21 @@
 	border-radius: 18px;
 	width: 800px;
 	height: 80px;
-	background-color: #002b80;
+	background-color: #9ed0b7;
 	color:white;
 	border-radius: 18px;
 	text-align:center;
 }
 
 .text {
-	color:white;
+	color: white;
 	font-size:12px;
 }
 
-#button{
+.button{
 	width:90px;
 	margin: 15px;
-	background-color: #002b80;
+	background-color: #092b5b;
 	line-height: 30px;
 	text-align:center;
 	color:white;
@@ -41,15 +46,16 @@
 	box-shadow: 0px 0px 2px rgba(172, 160, 162, 0.2),
 		1px 1px 3px rgba(160, 41, 41, 0.2);
 	cursor: pointer;
+	padding: 1px 2px;
 }
-#button:hover{
-	background-color: #6699ff;
+.button:hover{
+	background-color: #09738b;
 }
 
 #nextbutton{
 	width:150px;
 	margin: 15px;
-	background-color: #00A1C9;
+	background-color: #092b5b;
 	line-height: 30px;
 	text-align:center;
 	color:white;
@@ -59,7 +65,7 @@
 	cursor: pointer;
 }
 #nextbutton:hover{
-	background-color: #0B08EE;
+	background-color: #09738b;
 }
 
 #Eventlist{
@@ -69,4 +75,93 @@
 #checkstatus{
 	color:white;
 	font-size:18px;
+}
+
+ul {
+	
+    -webkit-padding-start: 0px;
+}
+
+.time-selector {
+
+	line-height: 30px;
+}
+.amountOfTasks{
+	
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	
+}
+
+#add-date {
+	width: 150px;
+}
+
+/*NEW CSS FROM PROJECT 2*/
+.event {
+	padding:10px;
+	margin:20px 0;
+	background-color:white;
+}
+
+.event-name {
+	font-weight:bold;
+	margin-bottom:4px;
+	font-size:20px;
+}
+
+.event-date {
+	font-weight:600;
+	margin: 10px 0 ;
+	font-size:16px;
+}
+
+.block-label {
+	display: block;
+}
+
+.event-users-name {
+	width:300px;
+	line-height:26px;
+	margin:10px 0;
+	font-size: 14px;
+}
+
+.task-label-incomplete {
+	display: block;
+	color:black;
+}
+
+.task-label-complete {
+	display: block;
+	color:gray;
+}
+
+.event-task-title {
+	margin: 10px 0 0;
+	font-weight: 600;
+	font-size:18px;
+}
+
+.user-submit-btn {
+	line-height: 26px;
+	vertical-align: middle;
+	margin-left:10px;
+}
+
+.attendee {
+	margin-top:12px;
+	font-weight:600;
+	font-size:16px;
+}
+
+.attendee-date {
+	font-weight:400;
+}
+
+.attendee-blocks {
+	font-weight: 300;
+	color: #353535;
+	margin-left:8px;
 }

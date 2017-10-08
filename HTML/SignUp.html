@@ -2,7 +2,7 @@
 	<head>
 		<title>Sign Up</title>
 		<link rel="stylesheet" type="text/css" href="../CSS/SubpageStyle.css">
-		<script type="text/javascript" src="../Script/CEScript.js"></script>
+		<script type="text/javascript" src="../Script/sign-up-vm.js"></script>
 	</head>	
 	<body>
 		<div>
@@ -21,12 +21,19 @@
 				<section id ="Eventlist"></section>
 
 				<ul>
-				<a><input type="button" id="button" value="Save" onclick="Addmember('name','eventoption', 'timeslot');"></a>
+				
+				Select 0 or as many tasks:
+				<div id='taskList' class='taskList'>
+		
+				<a><input type="button" class="button" value="Save" onclick="Addmember('name','eventoption', 'timeslot', 'taskAll');"></a>
 
-				<a href="../index.html"><button id="button">Go Back</button></a>
+
+
+
+				<button class="button" onclick="backButton()">Go Back</button>
 				</ul>
 			</section>
-			</center>>
+			</center>
 		</div>
 	</body>
 </html>
